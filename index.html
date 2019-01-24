@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/a10c7a379a.js"></script>
 </head>
 
+<div class="loader">
+    <img src="images/loading.gif" alt="Loading..." />
+</div>
 
 <!-- Navbar -->
 
@@ -36,16 +40,34 @@
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
-                                <img src="images/Johnson.jpg" alt="Avatar" style="width:500px;height:500px;">
+                                <img src="images/Johnson.jpg" style="width:500px;height:500px;border-radius: 50%;">
                             </div>
                             <div class="flip-box-back">
-                                <h2>Back Side</h2>
+                                <img src="images/codenation.png" style="width:500px;height:300px;border-radius: 50%;margin-top: 69px;">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    
+                <div class="col-sm-6" id="center">
+                    <div class="intro-text">
+                        <h1 id="name">Johnson Chen</h1>
+                        <span class="skills" id="name2">Web Developer - Student - Gamer</span>
+                        <ul class="list-inline" id="icon">
+                            <li>
+                                <a href="https://github.com/JohnsonChen22002" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/ScriptEd.JohnsonChen" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="https://twitter.com/JohnsonScriptEd" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                    </div>
                 </div>
             </div>
         </div>
@@ -53,9 +75,12 @@
 
     <!-- Section 2 -->
     <div id="section2" class="container-fluid">
-        <h1>Section 2</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <div class="jumbotron" id="jumbotron">
+            <h1>Hello, world!</h1>
+            <p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Résumé</a>
+            </p>
+        </div>
     </div>
 
     <!-- Section 3 -->
@@ -71,7 +96,8 @@
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     </div>
-
+    
+    <script src="script.js"></script>
 
 </body>
 
